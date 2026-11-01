@@ -1,0 +1,39 @@
+一. 使用docker compose 管理redis 容器
+     有数据卷,自定义网络,端口映射
+	启动
+    进入 添加数据  
+    终止
+    再进入测试容器数据可以恢复	
+	
+二.复习
+  2.1 docker compose: 容器编排
+  2.2 配置文件中的指令:
+           version:
+		   services: 服务
+		     服务名:
+			    镜像:
+				容器的名字:
+				端口映射:
+				数据卷:
+				依赖服务名:
+				自定义网络:
+				
+		   volumes:
+		   networks:
+    2.3 docker compose 指令
+        docker compose up -d	
+		docker compose down 
+		docker compose down -v
+		docker compose logs
+		docker compose exec 服务名 
+		docker compose start
+		docker compose stop
+		
+三.私有库搭建
+    		
+		
+           		   
+				
+     
+	
+	 
